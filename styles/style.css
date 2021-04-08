@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
 body{
   line-height: 2.3em;
   padding-top: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Yatra One', cursive;
   font-weight: 900;
   font-size: 20px;
   background-image: url("../images/double-bubble-dark.png");
@@ -19,6 +21,7 @@ header h1{
 }
 .container{
     margin-top: 8%;
+    margin-bottom: 8%;
 }
 .inner{
     overflow: hidden;
@@ -73,3 +76,14 @@ li a {
   li{
     border-right: 1px solid #bbb;
   }
+  P {
+    font-family: 'Yatra One', cursive;
+  }
+  h2{
+    color: brown;
+    word-wrap: break-word;
+}
+.link img:hover {
+  filter: grayscale(100%);
+    transform: scale(1.1);
+}
